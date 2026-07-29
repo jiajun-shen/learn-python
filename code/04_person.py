@@ -9,6 +9,12 @@ else:
     print(f"{name} 还未成年，需要继续成长。")
 
 print("这个例子说明了：")
-print("1. if 可以用来判断条件是否成立")
-print("2. else 可以处理条件不成立的情况")
-print("3. 变量可以参与条件判断")
+
+knowledge_points = [
+    "if 可以用来判断条件是否成立",
+    "else 可以处理条件不成立的情况",
+    "变量可以参与条件判断",
+]
+
+for number, point in enumerate(knowledge_points, start=1):
+    print(f"{number}. {point}")
