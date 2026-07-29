@@ -1,23 +1,14 @@
-# 工业机器人安全检查示例
-# 这个程序用 if 语句来演示机器人在工作前如何判断是否可以继续运行。
+"""第 4 个 Python 练习：用 if 语句判断一个人的年龄是否成年。"""
 
-battery_level = 85         # 电量百分比
-joint_temperature = 48    # 关节温度
-obstacle_detected = False  # 是否检测到障碍物
+name = "小明"
+age = 20
 
-if battery_level >= 20 and joint_temperature <= 60 and not obstacle_detected:
-    print("机器人状态正常，准备开始执行任务。")
-    print("机械臂正在平稳移动。")
+if age >= 18:
+    print(f"{name} 已经成年，可以独立做决定。")
 else:
-    print("机器人已停止运行，原因如下：")
-    if battery_level < 20:
-        print("- 电量不足")
-    if joint_temperature > 60:
-        print("- 关节温度过高")
-    if obstacle_detected:
-        print("- 检测到障碍物")
+    print(f"{name} 还未成年，需要继续成长。")
 
-print("\n这个例子说明了：")
-print("1. if 可以用来判断机器人的安全状态")
-print("2. and 可以同时满足多个条件")
-print("3. else 可以处理异常情况")
+print("这个例子说明了：")
+print("1. if 可以用来判断条件是否成立")
+print("2. else 可以处理条件不成立的情况")
+print("3. 变量可以参与条件判断")
