@@ -5,5 +5,6 @@
   "git.confirmSync": false,
   "git.autofetch": true,
   "git.useEditorAsCommitInput": false,
-  "git.showPushSuccessNotification": true
+  "git.showPushSuccessNotification": true,
+  "python.defaultInterpreterPath": "/usr/bin/python3"
 }
