@@ -4,7 +4,7 @@ name = "小明"
 age = 20
 
 if age >= 18:
-    print(f"{name} 已经成年，可以独立做决定。")
+    print(f"{name} 已经成年，可以独立做决定111111111。")
 else:
     print(f"{name} 还未成年，需要继续成长。")
 
