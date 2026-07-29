@@ -1,0 +1,9 @@
+{
+  "git.enableSmartCommit": true,
+  "git.smartCommitChanges": "all",
+  "git.postCommitCommand": "sync",
+  "git.confirmSync": false,
+  "git.autofetch": true,
+  "git.useEditorAsCommitInput": false,
+  "git.showPushSuccessNotification": true
+}
