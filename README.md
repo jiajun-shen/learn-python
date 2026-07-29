@@ -6,14 +6,14 @@
 
 - `code/`：Python 源代码文件。
 
-## 在线编辑
+## 本地 VS Code
 
-打开 [GitHub 网页版 VS Code](https://github.dev/jiajun-shen/learn-python)，就可以新建和编辑代码。
+在电脑上安装 Git 和 VS Code 后，使用 VS Code 的 `Source Control → Clone Repository`，输入：
 
-编辑完成后，在左侧 Source Control 中提交并 Push，代码就会保存到这个仓库。
+```text
+https://github.com/jiajun-shen/learn-python.git
+```
 
-## 运行、Debug 和 Codex
+打开克隆后的 `learn-python` 文件夹，就可以在本地编辑、运行和 Debug Python。
 
-打开 [GitHub Codespaces](https://codespaces.new/jiajun-shen/learn-python)，仓库会自动准备 Python、Debug 和 Codex 扩展。
-
-进入 Codespaces 后，打开 `code/` 下的 Python 文件，按 F5 可以运行或 Debug 当前文件。第一次使用时，在 Codex 侧栏登录 ChatGPT。
+编辑完成后，在 Source Control 中暂存并 Commit，再点击 Sync Changes 或 Push，代码就会保存到 GitHub。网站会读取 GitHub `main` 分支中的最新文件。
