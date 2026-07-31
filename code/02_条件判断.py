@@ -1,9 +1,12 @@
 
-birth = input('birth: ')
-if birth < 2000:
-    print('00前')
-else:
-    print('00后')    #是错的 因为这个birth的值是字符串
+from numpy import rint
+
+
+# birth = input('birth: ')
+# if birth < 2000:
+#     print('00前')
+# else:
+#     print('00后')    #是错的 因为这个birth的值是字符串
 
 
 s = input('birth: ') #自己手输入一个数字
@@ -41,3 +44,35 @@ match args:
     # 其他所有情况
     case _:
         print('invalid command.')
+
+#for循环
+sum = 0
+for x in range(101):
+    sum = sum + x
+print(sum)
+
+#while循环
+n = 1
+while n <= 100:
+    if n > 10: 
+        break 
+    print(n)
+    n = n + 1
+print('END')           #答应出1到10后下面一行END
+
+d = {'Michael': 95, 'Bob': 75, 'Tracy': 85}
+d['Jack'] = 90      #往d（dict）里面加元素
+print(d['Jack'])  #90
+print(d)
+
+#dict字典
+d = {'Michael': 95, 'Bob': 75, 'Tracy': 85}
+d['Michael'] = 95
+
+#set集合
+s1 = {1, 2, 3}
+s2 = {2, 3, 4}
+s1 & s2 = {2, 3}
+s1 | s2 = {1, 2, 3, 4}
+
+
